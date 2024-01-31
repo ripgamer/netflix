@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -23,7 +23,7 @@ body{
 .main .box {
     height: 70vh;
     width: 100%;
-    opacity: 0.44;
+    opacity: 0.69;
     position: absolute;
     top: 0;
     background-color: black;
@@ -53,7 +53,7 @@ nav button {
 .hero {
     
     font-family: 'Martel Sans', sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,10 +61,10 @@ nav button {
     color: white;
     position: relative;
     gap: 23px;
-    padding: 30px;
+    padding: 0 30px;
 }
-.hero> :first-child {
-
+.hero> :nth-child(1){
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: bolder;
     font-size: 48px;
@@ -79,4 +79,75 @@ nav button {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
+}
+.hero div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+.sepration {
+    height: 9px;
+    background-color:rgb(47, 46, 46);
+}
+.btn{
+    font-family: 'Martel Sans', sans-serif;
+    width: 110px;
+    height: 32px;
+    padding: 4.8px 8px;
+    font-weight: bold;
+    background-color: rgba(24, 24, 24, 0.408);
+    color: white;
+    border-radius: 0.25rem;
+    border: rgb(90, 90, 90) 1px solid;
+
+}
+.btn2{
+    font-family: 'Martel Sans', sans-serif;
+    width: 110px;
+    height: 32px;
+    padding: 4.8px 8px;
+    font-weight: bold;
+    background-color: rgba(24, 24, 24, 0.408);
+    color: white;
+    border-radius: 0.25rem;
+    border: rgb(90, 90, 90) 1px solid;
+
+}
+
+.btn-red-sm{
+    height: 32px;
+    width: 70px;
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+    
+
+}
+.btn-red {
+    padding: 7px 22px;
+
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+
+
+}
+.main input {
+    padding: 7px 22px;
+    width: 227px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(24, 24, 24, 0.408);
+    color: white;
+    border-radius: 0.25rem;
+    border: rgb(90, 90, 90) 0.9px solid;
 }
