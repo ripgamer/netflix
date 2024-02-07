@@ -13,15 +13,15 @@ body{
 
 .main {
     background-image: url(assets/images/bg.jpg);
-    height: 70vh;
-    background-position: center center;
+    height: 90vh;
+    background-position: top center; /*change this to center center*/
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
     position: relative;
 }
 
 .main .box {
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.69;
     position: absolute;
@@ -71,8 +71,8 @@ nav button {
 }
 .hero> :nth-child(2) {
     text-align: center;
-
-    font-weight: 400;
+   font-weight: 400;
+ 
     font-size: 26px;
 }
 .hero> :nth-child(3) {
@@ -143,11 +143,143 @@ nav button {
 }
 .main input {
     padding: 7px 22px;
-    width: 227px;
+    width: 260px;
     font-size: 20px;
     border: none;
     background-color: rgba(24, 24, 24, 0.408);
     color: white;
     border-radius: 0.25rem;
     border: rgb(90, 90, 90) 0.9px solid;
+}
+/* .sec1 {
+   display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    
+}
+.sec1-box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.sec1 img {
+    max-width: 60vh;
+} */
+.sec1 {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    padding: 0 30px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.sec1 .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 0.3rem;
+}
+.box1 :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.box1 :nth-child(2) {
+    font-weight: 30;
+    font-size: 18px;
+}
+.sec1 .box2 img{
+    max-width: 70vh;
+    padding-left: 0.3rem;
+    
+}
+.box2 img{
+    position:absolute;
+}
+.box2 video {
+    position: relative;
+    z-index: -1;
+    top: auto;
+    padding-top: 10%;
+    left: 7%;
+    width: 58vh;
+    overflow: hidden;
+}
+.sec2 {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-items: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    padding: 0 30px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.sec2 .box2 img{
+    max-width: 70vh;
+    padding-left: 0.3rem;
+    position:relative;
+}
+.sec2 .popup {
+    border: rgb(158, 158, 158) 2px solid;
+    border-radius: 25px;
+    height: 106px;
+    width: 528px;
+    background-color: black;
+    position: relative;
+    z-index: 10;
+    margin-top: -24%;
+    left: 8%;
+}
+
+.sec2 .box2{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 0.3rem;
+}
+.box2 :nth-child(1){
+   
+    font-size: 48px;
+}
+.box2:nth-child(2) {
+    font-weight: 30;
+    font-size: 18px;
+}
+.sec2 .box2 img{
+    max-width: 70vh;
+    padding-left: 0.3rem;
+    
+}
+.box1 img{
+    
+}
+.box1 video {
+    
 }
