@@ -243,17 +243,52 @@ nav button {
     padding-left: 0.3rem;
     position:relative;
 }
+.sec2 .box2{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 0.3rem;
+}
+
 .sec2 .popup {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: rgb(158, 158, 158) 2px solid;
     border-radius: 25px;
     height: 106px;
-    width: 528px;
+    width: 427px;
     background-color: black;
     position: relative;
     z-index: 10;
     margin-top: -24%;
-    left: 8%;
+    left: 16%;
 }
+
+.sec2 .popup .box2 :nth-child(1){
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.sec2 .popup .box2 :nth-child(2) {
+    color: blue;
+    font-weight: 30;
+    font-size: 15px;
+}
+.sec2 .popup .box1 img{
+        width: 32%;
+        padding: 19px;
+        padding-top: 37px;
+        position: relative;
+        right: 26px;
+    
+}
+
+
 
 .sec2 .box2{
     display: flex;
@@ -275,7 +310,6 @@ nav button {
 .sec2 .box2 img{
     max-width: 70vh;
     padding-left: 0.3rem;
-    
 }
 .box1 img{
     
